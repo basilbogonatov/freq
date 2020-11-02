@@ -63,11 +63,11 @@ static void PrintWordFreqs(const TFreqs& freqs, const string& path) {
 
   auto statIt = stats.begin();
 
-  os << statIt->second << " " << statIt->first;
+  os << statIt->second << ' ' << statIt->first;
   ++statIt;
 
   while (statIt != stats.end()) {
-    os << '\n' << statIt->second << " " << statIt->first;
+    os << '\n' << statIt->second << ' ' << statIt->first;
     ++statIt;
   }
 }
