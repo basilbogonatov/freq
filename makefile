@@ -1,5 +1,5 @@
 CXX := g++
-CXXFLAGS := -Wall -Wpedantic -Werror -O2 -std=c++14
+CXXFLAGS := -Wall -Wpedantic -Werror -O2 -std=c++14 
 
 all:
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o freq main.cpp $(LDLIBS)
